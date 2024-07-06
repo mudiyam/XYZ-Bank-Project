@@ -9,7 +9,7 @@ public class PallindromeProgram {
 		int temp = num;
 		while(num>0)
 		{
-			rem=num%10;
+			rem=num%10;//Mahendra
 			sum1=sum1*10+rem;
 			num=num/10;
 		}
